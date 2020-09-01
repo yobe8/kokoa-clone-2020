@@ -1,9 +1,48 @@
 .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
     background-color: #F9F9FA;
-    padding: 20px 40px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(41, 41, 41, 0.075);
+
 }
 
 .nav__list {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__link {
+    color:#2F363E;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: 400 13px arial;
+    position: absolute;
+    left: 15px;
+    bottom: 14px;
+}
+.nav__btn i {
+    font-size: 25px;
+}
+
+.nav__notification-dot {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
 }

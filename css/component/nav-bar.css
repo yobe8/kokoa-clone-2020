@@ -15,7 +15,6 @@
 }
 
 .nav__link {
-    color:#2F363E;
     position: relative;
 }
 
@@ -35,6 +34,7 @@
 }
 .nav__btn i {
     font-size: 25px;
+    color: #2F363E;
 }
 
 .nav__notification-dot {

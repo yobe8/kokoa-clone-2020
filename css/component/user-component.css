@@ -1,5 +1,7 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 15px;
+    overflow: auto;
 }
 
 .user-component,
@@ -20,10 +22,10 @@
     font-size: 22px;
 }
 
-.user-component__subtitile {
+.user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--gray);
 }
 
 .user-component__avater--xl {

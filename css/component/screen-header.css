@@ -18,3 +18,9 @@
 .friends-screen {
     padding: 0px var(--horizontal-space);
 }
+
+.badge-dot {
+    position: relative;
+    top: -20px;
+    
+}

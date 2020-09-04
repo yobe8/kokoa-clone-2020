@@ -30,3 +30,8 @@
 .status-bar__column .fa-battery-full {
     margin: 0 5px;
 }
+
+.status-bar__transparent-container {
+    width: 100%;
+    height: 25px;
+}

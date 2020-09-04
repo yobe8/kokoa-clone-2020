@@ -9,11 +9,16 @@
 @import "./component/screen-header.css";
 @import "./component/user-component.css";
 @import "./component/badge.css";
+@import "./component/icons-row.css";
+@import "./component/alt-screen-header.css";
 
 /* Screens */
 @import "./screens/login.css";
 @import "./screens/friends.css";
 @import "./screens/find.css";
+@import "./screens/more.css";
+@import "./screens/settings.css";
+@import "./screens/chat.css";
 body {
     color:#2F363E;
     font-family: 'Open Sans', sans-serif;

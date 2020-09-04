@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0 15px;
+    margin: 10px 0 15px;
     padding: var(--horizontal-space);
 }
 
@@ -11,16 +11,17 @@
     font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons > span {
     margin-left: 25px;
+    position: relative;
 }
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
 }
 
-.badge-dot {
-    position: relative;
-    top: -20px;
-    
+.screen-header__dot {
+    position: absolute;
+    top: -5px;
+    right: -5px;
 }
